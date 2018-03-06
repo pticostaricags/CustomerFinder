@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TextAnalyticsTransaction]
+(
+	[TextAnalyticsTransactionId] BIGINT NOT NULL CONSTRAINT PK_TEXTANALYTICSTRANSACTION PRIMARY KEY IDENTITY, 
+    [TransactionType] NVARCHAR(100) NOT NULL, 
+    [CreatedAt] DATETIMEOFFSET NOT NULL 
+)

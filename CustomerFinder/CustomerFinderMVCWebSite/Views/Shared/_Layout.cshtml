@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/ycp.css" />
+    <link rel="stylesheet" href="~/Content/headerFooter.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Scripts/owlcarousel/carousel.css">
+    <title>@ViewBag.Title - @CustomerFinderMVCWebSite.Properties.Settings.Default.ApplicationName</title>
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="contact" id="contact-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="contact-us">
+                        Contact Us
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="contact-icon phone">
+                        <span class="glyphicon glyphicon-contact glyphicon-earphone" aria-hidden="true"></span> +44 (0) 123 456 7890
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="contact-icon map">
+                        <span class="glyphicon glyphicon-contact glyphicon-map-marker" aria-hidden="true"></span> LOREM, IPSUM
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="contact-icon message">
+                        <span class="glyphicon glyphicon-contact glyphicon-envelope" aria-hidden="true"></span> lorem@ipsum
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="contact-icon clock">
+                        <span class="glyphicon glyphicon-contact glyphicon-time" aria-hidden="true"></span> Mon to Sat - 9AM to 11
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <div class="media pull-right" style="letter-spacing: 12px;">
+                        <a href="#" class="fa fa-google" aria-hidden="true"></a>
+                        <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+                        <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav" class="navbar">
+        <nav id="menu-navbar" class="navbar navbar-default" data-spy="affix" data-offset="50" role="navigation" style="background-color: white;">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <img src="images/logo.jpg" width="50" style="padding-top:4px;padding-bottom: 2px;">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                        <span class="sr-only>Toogle navigation"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse">
+
+                    <ul id="main-navbar" class="nav navbar-nav btn btn-nav navbar-right" style="margin-top: 13px;">
+                        <li class="item-active"><a href="#contact-menu">HOME</a></li>
+                        <li><a href="#service">SERVICE</a></li>
+                        <li><a href="#works">HOW IT WORKS</a></li>
+                        <li><a href="#youtube">YOUTUBE CHANNEL</a></li>
+                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li>@Html.ActionLink(linkText: "LOG IN", controllerName: "NetworkStatus", actionName: "Index")</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+
+        @RenderBody()
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <img src="images/logo.jpg" width="150">
+
+                <p class="footer-links">
+                    <a href="#video">Home</a>
+                    ·
+                    <a href="#service">Service</a>
+                    ·
+                    <a href="#works">How it Works</a>
+                    ·
+                    <a href="#pricing">Pricing</a>
+                    ·
+                    <a href="#testimonials">Testimonials</a>
+                    ·
+                    <a href="#contact">Contact</a>
+                </p>
+
+                <p class="footer-company-name">Copyright © 2018 PTI Costa Rica </p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Lorem ipsum</span> Lorem, Ipsum</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+44 (0) 123 456 7890</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">lorem@ipsum.com</a></p>
+                </div>
+                <div>
+                    <i class="fa fa-clock-o"></i>
+                    <p>Mon to Sat - 9AM to 11</p>
+                </div>
+
+                <div>
+                    <!-- <div class="footer-icons"> -->
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/PTI-Costa-Rica-139286422763882/" data-tabs="timeline" data-height="300px" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PTI-Costa-Rica-139286422763882/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PTI-Costa-Rica-139286422763882/">PTI Costa Rica</a></blockquote></div> -->
+
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPTI-Costa-Rica-139286422763882%2F&tabs=timeline&width=350px&height=280px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="350" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+            </div>
+
+        </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Scripts/jquery.nav.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/owlcarousel/carousel.js"></script>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/ycp.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>CustomerFinderDataSrc</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@username">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT        TwitterAccountsId, Username, ProfileDescription, LastCheckedDate, Location, TwitterProfileUrl
+FROM            vwTwitterProfilesWithCEO AS TPWCEO
+WHERE        (TwitterAccountsId IN
+                             (SELECT        TwitterAccountsId
+                               FROM            dbo.fnGetTwitterFirstLevelFollowersIds(@username) AS fnGetTwitterFirstLevelFollowersIds_1
+                               UNION
+                               SELECT        TwitterAccountsId
+                               FROM            dbo.fnGetTwitterSecondLevelFollowersIds(@username) AS fnGetTwitterSecondLevelFollowersIds_1))</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="TwitterAccountsId">
+        <DataField>TwitterAccountsId</DataField>
+        <rd:TypeName>System.Int64</rd:TypeName>
+      </Field>
+      <Field Name="Username">
+        <DataField>Username</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProfileDescription">
+        <DataField>ProfileDescription</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="LastCheckedDate">
+        <DataField>LastCheckedDate</DataField>
+        <rd:TypeName>System.DateTimeOffset</rd:TypeName>
+      </Field>
+      <Field Name="Location">
+        <DataField>Location</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="TwitterProfileUrl">
+        <DataField>TwitterProfileUrl</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

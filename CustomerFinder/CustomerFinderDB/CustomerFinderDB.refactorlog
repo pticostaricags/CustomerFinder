@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="4eddbd14-067d-4365-9d88-a3a0be890980" ChangeDateTime="09/02/2016 13:53:29">
+    <Property Name="ElementName" Value="[dbo].[TwitterFollowerCheckProgress].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterFollowerCheckProgress]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterFollowerCheckProgressId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cedbc9c2-8c4f-4276-9099-64a8201bd48a" ChangeDateTime="09/02/2016 20:10:18">
+    <Property Name="ElementName" Value="[dbo].[TwitterUserStatusLanguage].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterUserStatusLanguage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterUserStatusLanguage" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="60e6c003-40a0-4a36-bc92-31ae03df7c8a" ChangeDateTime="09/02/2016 20:16:02">
+    <Property Name="ElementName" Value="[dbo].[TwitterUserStatusLanguage].[TwitterUserStatusLanguage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterUserStatusLanguage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterUserStatusLanguageId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="011dc97b-a33a-4956-9f65-ea41c766aee0" ChangeDateTime="09/03/2016 23:43:18">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TextAnalyticsTransaction" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d3e273d5-43f7-4050-9c74-03e272f0d080" ChangeDateTime="09/03/2016 23:45:58">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TextAnalyticsTransactionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="182c5afc-efbb-48e3-ab0b-1a454e81fb45" ChangeDateTime="09/03/2016 23:54:44">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[TextAnalyticsTransactionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RequestAllowanceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="941fc9d7-cd2d-4967-8137-665948baea37" ChangeDateTime="09/03/2016 23:56:09">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[LimitFoundOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LimitFoundAt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bbb30881-8868-4fc6-917b-319b3d8a0584" ChangeDateTime="09/04/2016 00:57:49">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TextAnalyticsTransaction" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1dbb67f4-05fe-45ca-afd9-31f2080be2e6" ChangeDateTime="09/04/2016 00:57:56">
+    <Property Name="ElementName" Value="[dbo].[TextAnalyticsTransaction].[TextAnalyticsTransaction]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TextAnalyticsTransaction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TextAnalyticsTransactionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76c3b4a2-5d83-47f5-b138-b43f115a3865" ChangeDateTime="09/04/2016 15:03:39">
+    <Property Name="ElementName" Value="[dbo].[TwitterUserStatusKeyPhrase].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterUserStatusKeyPhrase]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterUserStatusKeyPhraseId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="19abef3e-fc4e-4ccd-b857-73fcc6c10815" ChangeDateTime="09/07/2016 04:53:30">
+    <Property Name="ElementName" Value="[dbo].[TwitterMultiClientQueue].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterMultiClientQueue]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterMultiClientQueue" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7dce875b-7fb9-464c-8652-324dbc799a5b" ChangeDateTime="09/07/2016 04:56:12">
+    <Property Name="ElementName" Value="[dbo].[TwitterMultiClientQueue].[TwitterMultiClientQueue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TwitterMultiClientQueue]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TwitterMultiClientQueueId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6339cc0d-39b3-42f2-a7d0-d853a212104e" ChangeDateTime="11/21/2017 13:50:28">
+    <Property Name="ElementName" Value="[dbo].[FirstChanceException].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FirstChanceException]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstChanceException" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0a82c16-7170-4dd0-a184-48a71d153782" ChangeDateTime="11/21/2017 13:51:26">
+    <Property Name="ElementName" Value="[dbo].[FirstChanceException].[StackTrae]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FirstChanceException]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StackTrace" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6d1f8dc-fefe-407d-ab7a-993d92368d95" ChangeDateTime="11/21/2017 13:51:43">
+    <Property Name="ElementName" Value="[dbo].[FirstChanceException].[ApplicationNAme]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FirstChanceException]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ApplicationName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9b2e7b62-afdd-4dc1-9aae-7eca8f8eaf8c" ChangeDateTime="11/21/2017 13:56:56">
+    <Property Name="ElementName" Value="[dbo].[c].[FirstChanceException]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[c]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstChanceExceptionId" />
+  </Operation>
+</Operations>

@@ -1,0 +1,353 @@
+﻿.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn.active, .btn:active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.SERVICE {
+    text-align: center;
+    background-image: url("../images/franja_celeste_lg.jpg");
+    height: 258px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.system-work {
+    text-align: center;
+}
+
+.youtube-channel {
+    text-align: center;
+    color: white;
+}
+
+#view-more {
+    padding: 1.05em 2.4em;
+    margin-top: 3em;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+    #view-more:hover {
+        background-color: #62b6ec;
+        transition: 0.5s ease-in-out;
+        font-size: 18px;
+    }
+
+.margin-five-bottom {
+    margin-bottom: 5% !important;
+}
+
+.text-blue {
+    color: #1b74ae;
+}
+
+.title-extra-large {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.title-extra-large-2 {
+    font-size: 45px !important;
+    line-height: 50px;
+}
+
+.margin-twelve-bottom {
+    margin-bottom: 7% !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.pricing-box-style4 .pricing-box {
+    border: 2px solid #1b74ae;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 16px !important;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.text-dark-gray {
+    color: #282828;
+}
+
+.alt-font {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.display-table-cell-vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.margin-lr-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.glyphicon-service .glyphicon-works {
+    position: relative;
+    top: 1px;
+    right: 1%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.glyphicon-works {
+    position: absolute;
+    right: 44%;
+    left: 44%;
+    transition: 0.5s ease;
+    -webkit-transition: all 300ms ease-in;
+}
+
+.system-features {
+    padding-top: 50px;
+    -webkit-transition: font-size 2s;
+}
+
+#pricing {
+    background-color: #efefef;
+}
+
+#youtube {
+    background-color: black;
+}
+
+ul.pricing-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12% !important;
+}
+
+.pricing-features-list .detail-border {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.section-title {
+    margin-top: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .xs-margin-nine-bottom {
+        margin-bottom: 9%;
+    }
+}
+
+#opacity {
+    position: absolute;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #000;
+}
+
+#bg-video {
+    background: url("../images/bg.png") repeat-x 0 0;
+    position: absolute;
+    opacity: 0.85;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cta-button {
+    padding: 1.25em 2em;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 0.5;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.pricing-features {
+    padding: 30px 40px 15px 40px;
+}
+
+.margin-ten-bottom {
+    margin-bottom: 9.5% !important;
+    margin-top: 6.5%;
+}
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.img-round-100 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px !important;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.testimonial-style3 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.owl-item {
+    width: 397px;
+}
+
+
+.owl-pagination-bottom .owl-pagination {
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+    width: 100%;
+}
+
+.owl-pagination {
+    position: absolute;
+    bottom: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+    .owl-pagination .owl-page {
+        display: inline-block;
+    }
+
+.owl-dark-pagination .owl-pagination .active span {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.owl-dark-pagination .owl-pagination .owl-page span {
+    border: 2px solid white;
+}
+
+.owl-pagination-bottom .owl-pagination .active span {
+    background: white;
+}
+
+.owl-pagination .active span {
+    background-color: #fff;
+    border: 2px solid white;
+}
+
+.owl-pagination .owl-page span {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#testimonials {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+label {
+    margin-top: 10px !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.content {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.form-control {
+    border: 1px transparent;
+}
+
+    .form-control:not(textarea) {
+        height: 40px !important;
+        border-radius: 0px !important;
+    }
+
+.pull-right {
+    border-radius: 50px !important;
+}
+
+.asterisc {
+    color: red;
+}
+
+@media (min-width: 1200px) {
+    .container-youtube {
+        width: 1100px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .owl-carousel {
+        width: 96% !important;
+    }
+
+    .owl-item {
+        width: 370px !important;
+    }
+}

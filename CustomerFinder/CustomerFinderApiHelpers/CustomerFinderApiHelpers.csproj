@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B2A94E3-28D1-4A3C-AA06-5594201750ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomerFinderApiHelpers</RootNamespace>
+    <AssemblyName>CustomerFinderApiHelpers</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PowerBI\Templates\Efonsecabcr\Messages with Azure.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Messages with Microsoft In Education.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Messages with Office 365.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Messages with Unity3d.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Twitter Profiles For Microsoft In Education.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Twitter Profiles with CEO.pbix" />
+    <None Include="PowerBI\Templates\Efonsecabcr\Twitter Profiles With Unity.pbix" />
+    <None Include="PowerBI\Templates\KendarteBlog\KendarteBlog Network Status Last 30 Days.pbix" />
+    <None Include="PowerBI\Templates\KendarteBlog\Twitter 1st and 2nd Level Followers.pbix" />
+    <None Include="PowerBI\Templates\LidDeterminados\LidDeterminados Network Status Last 30 Days.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network CEOs.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Costa Rica.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Entrepreneurs.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Founders And CoFounders.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Marketing.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Sentiment.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Startups.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Status Last 30 Days.pbix" />
+    <None Include="PowerBI\Templates\My Twitter Network Status Last 30 Days_copy.pbix" />
+    <None Include="PowerBI\Templates\PopIdeaCA\PopIdeaCA Network Marketing.pbix" />
+    <None Include="PowerBI\Templates\PopIdeaCA\PopIdeaCA Network Status Last 30 Days.pbix" />
+    <None Include="PowerBI\Templates\Starbucks CR\Starbucks Costa Rica Network Status Last 30 Days.pbix" />
+    <None Include="PowerBI\Templates\Templates\Template Network Status Last 30 Days.pbit" />
+    <None Include="PowerBI\Templates\Templates\Twitter 1st and 2nd Level Followers.pbit" />
+    <None Include="PowerBI\Templates\Total Items Processed.pbix" />
+    <None Include="PowerBI\Templates\Twitter Coffee Lovers.pbix" />
+    <None Include="PowerBI\Templates\UcreativaCR\Twitter 1st And 2nd Level Followers.pbix" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

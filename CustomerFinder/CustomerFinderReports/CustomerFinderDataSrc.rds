@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CustomerFinderDataSrc">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString></ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>7884ca15-9f43-4be5-a0e8-4cfcce02ccba</DataSourceID>
+</RptDataSource>

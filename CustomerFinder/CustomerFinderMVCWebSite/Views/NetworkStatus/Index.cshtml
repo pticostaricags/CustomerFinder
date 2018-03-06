@@ -1,0 +1,31 @@
+﻿@model CustomerFinderMVCWebSite.Models.ViewModels.NetworkStatusInfo
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@if (Model != null)
+{
+    <div class="row">
+        @Html.DisplayFor(p => Model)
+    </div>
+
+    <div class="row">
+        <div class="span1">
+            <h2>First Level Followers</h2>
+            <span>@Model.FirstLevelFollowers</span>
+        </div>
+        <div class="span1">
+            <h2>Second Level Followers</h2>
+            <span>@Model.FirstLevelFollowers</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span2">
+            <h2>Messages Processed</h2>
+            <span>@Model.MessagesProcessed</span>
+        </div>
+    </div>
+}
+

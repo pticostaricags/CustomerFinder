@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CustomerFinderCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="CustomerFinderWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=stgpticustomerfinder;AccountKey=fLdTCQxcZv0kQ/IG8yKKRfyEtdq2kKn+kuQR22SAjqjj6l9+bIaslaAcC/ndkz2TtwmIhxTmkg7dQ6uTDZaG+w==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="535be728-9e65-4cdd-8a8e-283154f5ec26" />
+      <Setting name="TwitterApp_ConsumerKey" value="" />
+      <Setting name="TwitterApp_ConsumerSecret" value="" />
+      <Setting name="TwitterApp_AccessToken" value="" />
+      <Setting name="TwitterApp_AccessTokenSecret" value="" />
+      <Setting name="CustomerFinderContext" value="" />
+      <Setting name="Twitter_Username" value="" />
+      <Setting name="TextAnaliticsKey" value="" />
+      <Setting name="Notifications_ToEmailAddress" value="" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
