@@ -1,6 +1,8 @@
 # Customer Finder
 Customer Finder by [PTI Costa Rica](https://www.pticostarica.com) is a Cloud-Based system which has the objetive to help Entrepreneurs and SMBs to identify Potential Customers, by leveraging the power of their Social Media Profiles.
 
+[What is Customer Finder](https://www.youtube.com/watch?v=CoD01fv58d0)
+
 The first phase of the project uses Twitter only.
 
 Customer Finder allows users to gather information of their First and Second Level followers.
@@ -38,7 +40,7 @@ Download the latest version from the master branch.
   * Twitter_Username
   * TextAnaliticsKey
   * Notifications_ToEmailAddress
-*  Open the app.config file.
+*  Open the app.config file under the project CustomerFinderWorkerRole.csproj.
 *  Set the configuration for mailSettings
 *  Open the properties for CustomerFinderCloudService.ccproj
 *  Under Developement, set Service Configuration to Cloud
