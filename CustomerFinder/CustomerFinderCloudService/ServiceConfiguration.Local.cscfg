@@ -3,7 +3,6 @@
   <Role name="CustomerFinderWorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="535be728-9e65-4cdd-8a8e-283154f5ec26" />
       <Setting name="TwitterApp_ConsumerKey" value="" />
       <Setting name="TwitterApp_ConsumerSecret" value="" />

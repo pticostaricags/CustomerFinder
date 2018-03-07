@@ -2,7 +2,6 @@
 <ServiceDefinition name="CustomerFinderCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
   <WorkerRole name="CustomerFinderWorkerRole" vmsize="ExtraSmall">
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
       <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" />
       <Setting name="TwitterApp_ConsumerKey" />
       <Setting name="TwitterApp_ConsumerSecret" />
